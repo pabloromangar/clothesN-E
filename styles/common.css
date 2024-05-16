@@ -1,0 +1,320 @@
+body{
+    margin: 0;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    width: 100%; 
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    z-index: 900;
+    height: 21%;
+}
+
+span{
+    margin-left: 10px;
+}
+
+#header img{
+    width: 20px;
+    height: 20px;
+}
+
+#header h3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header h3:hover{
+    cursor: pointer;
+}
+
+.titulo{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    margin-left: -50px;
+    width: 85%;
+    letter-spacing: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.titulo div{
+    display: flex;
+    flex-direction: row;
+}
+
+.barra{
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.barra a{
+    background-color: transparent;
+    border: none;
+    padding: 0.8%;
+    display: inline;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: .9em;
+    display: inline;
+    transition: .2s;
+}
+
+.barra a:hover{
+    border: 2px solid black;
+    border-radius: 2px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: initial;
+}
+
+hr{
+    width: 80%;
+    opacity: 40%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.titulo img{
+    width: 20px;
+}
+
+.titulo button{
+    border: none;
+    background-color: white;
+}
+
+.titulo button:hover{
+    cursor: pointer;
+}
+/*
+        HEAD
+===================================*/
+#carrito div{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-bottom: 5%;
+}
+
+#carrito div div{
+    display: flex;
+    flex-direction: column;
+    width: 50%
+}
+
+#carrito{
+    display: none;
+    position: fixed;
+    top:20%;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.932);
+    height: 80%;
+    width: 25%;
+    overflow-y: auto;
+    text-align: center;
+    z-index: 1000;
+}
+
+#carrito img{
+    width: 100px;
+    margin-left: 5%;
+}
+
+#carrito button{
+    background-color: #27ae60;
+    border: none;
+    border-radius: 5px;
+    padding: 3%;
+    width: 60%;
+    margin: auto;
+}
+
+#carrito button:hover{
+    background-color: #36d278;
+    cursor: pointer;
+}
+
+/*
+        CARRITO
+=============================*/
+#productos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 84%;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.fila {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: .5%;
+}
+
+.producto {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1.5%;
+    border: .5px #4d4d4d42 solid;
+    text-align: center;
+    font-size: small;
+    width: 25%;
+    height: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white; 
+    position: initial; /* Changed from initial to relative */
+    transition: box-shadow 0.3s ease; /* Added transition for box-shadow */
+    z-index:100;
+    margin:auto;
+}
+
+.producto h4 {
+    color: #4d4d4d42;
+    font-weight: normal;
+}
+
+.producto h3 {
+    margin-top: 10%;
+}
+
+.producto img {
+    margin: auto;
+    width: 50%;
+}
+
+.producto:hover {
+    box-shadow: 2px 4px 4px 3px rgba(0, 0, 0, 0.2); /* Added box-shadow on hover */
+    z-index: 500;
+    height:fit-content;
+    border:solid 1px black;
+    align-items: center;
+    margin-bottom: -25px;
+}
+
+.producto:hover .menu {
+    opacity: 1;
+}
+
+.menu {
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 1s ease, opacity 1s ease;
+    width: 100%;
+    background-color: white;
+    border-top: none;
+}
+
+.menu button {
+    color: white;
+    background-color: #27ae60;
+    width: 80%;
+    border: none;
+    border-radius: 5px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin: auto;
+    transition: 1s ease;
+    margin-bottom: 10px;
+}
+
+.menu button:hover {
+    background-color: #36d278;
+    cursor: pointer;
+}
+
+.producto:hover .fila{
+    align-items: flex-start;
+}
+
+.oculto{
+    display: none;
+    z-index: 1000;
+    flex-direction: row;
+    position: fixed;
+    top: 25%;
+    right: 30%;
+    background-color: white;
+    width: 40%;
+    align-items: center;
+    gap: 15%;
+    padding:4%;
+    box-shadow: 10px 10px 10px 5px gray;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.oculto > button{
+    justify-content: flex-start;
+    top:10px;
+    right: 10px;
+    position: absolute;
+}
+
+.oculto img{
+    width: 40%;
+    padding-top:0;
+    padding-bottom: 0;
+    border: 2px solid #27ae60;
+    padding: 1%;
+
+}
+
+.oculto div{
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 50%;
+}
+
+.oculto div button{
+    color: white;
+    background-color: #27ae60;
+    width: 80%;
+    border: none;
+    border-radius: 5px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin: auto;
+    transition: 1s ease;
+    margin-bottom: 10px;
+}
+
+.oculto div button:hover{
+    background-color: #36d278;
+    cursor: pointer;
+}
+
+#session{
+    display: none;
+    position: fixed;
+    top:25%;
+    right: 35%;
+    z-index: 1000;
+    background-color: white;
+    padding: 4%;
+    display: none;
+    box-shadow: 4px 4px 4px 4px lightgray;
+    border-radius: 20px;
+    padding-top: 0;
+    flex-direction: column;
+}
+

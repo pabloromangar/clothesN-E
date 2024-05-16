@@ -1,0 +1,62 @@
+[
+    {
+        "nombre": "Vestido Ibiza",
+        "precio": 17.00,
+        "imagen": "../images/Vestidos/ibiza.webp"
+    },
+    {
+        "nombre": "Vestido Dubai",
+        "precio": 25.99,
+        "imagen": "../images/Vestidos/dubai.webp"
+    },
+    {
+        "nombre": "Vestido California",
+        "precio": 24.99,
+        "imagen": "../images/Vestidos/california.webp"
+    },
+    {
+        "nombre": "Vestido Buenos Aires",
+        "precio": 12.45,
+        "imagen": "../images/Vestidos/buenosAires.webp"
+    },
+    {
+        "nombre": "Vestido Tokyo",
+        "precio": 17.45,
+        "imagen": "../images/Vestidos/tokyo.webp"
+    },
+    {
+        "nombre": "Vestido México",
+        "precio": 14.30,
+        "imagen": "../images/Vestidos/mexico.webp"
+    },
+    {
+        "nombre": "Vestido Hawaii",
+        "precio": 18.95,
+        "imagen": "../images/Vestidos/hawaii.webp"
+    },
+    {
+        "nombre": "Vestido Croacia",
+        "precio": 17.00,
+        "imagen": "../images/Vestidos/croacia.webp"
+    },
+    {
+        "nombre": "Vestido Medellín",
+        "precio": 25.99,
+        "imagen": "../images/Vestidos/medellin.webp"
+    },
+    {
+        "nombre": "Vestido Europa",
+        "precio": 19.00,
+        "imagen": "../images/Vestidos/europa.webp"
+    },
+    {
+        "nombre": "Vestido América",
+        "precio": 15.50,
+        "imagen": "../images/Vestidos/america.webp"
+    },
+    {
+        "nombre": "Vestido París",
+        "precio": 17.95,
+        "imagen": "../images/Vestidos/paris.webp"
+    }
+]

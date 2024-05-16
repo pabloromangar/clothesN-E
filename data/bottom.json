@@ -1,0 +1,50 @@
+[
+    {
+        "nombre": "Pantalón canalé",
+        "precio": 13.99,
+        "imagen":"../pantalones/canale.webp"
+
+    },
+    {
+        "nombre": "Pantalón costuras",
+        "precio": 12.99,
+        "imagen":"../pantalones/costuras.webp"
+
+    },
+    {
+        "nombre": "Pantalón chandal",
+        "precio":   10.99,
+        "imagen":"../pantalones/chandal.webp"
+
+    },
+    {
+        "nombre": "Mallas leopardo rosa",
+        "precio":   9.99,
+        "imagen":"../pantalones/leopardo.webp"
+
+    },
+    {
+        "nombre": "Pantalón algodon",
+        "precio":   16.99,
+        "imagen":"../pantalones/algodon.webp"
+
+    },
+    {
+        "nombre": "Pantalón polipiel corto",
+        "precio":   12.99,
+        "imagen":"../pantalones/corto.webp"
+
+    },
+    {
+        "nombre": "Falda polipiel fruncida",
+        "precio":   12.99,
+        "imagen":"../pantalones/fruncida.webp"
+
+    },
+    {
+        "nombre": "Falda estampada",
+        "precio":   13.99,
+        "imagen":"../pantalones/estampada.webp"
+
+    }
+]

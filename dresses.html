@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/common.css">
+</head>
+
+<body>
+    <style>
+        #bottom {
+            border: 2px solid black;
+        }
+    </style>
+    <header>
+        <div id="header">
+            <div class="titulo">
+                <div>
+                    <button id="botonCarrito"><img src="images/shoppingcart_80945.png"></button>
+                    <h2>CLOTHESN&E</h2>
+                </div>
+                <div id="login">
+                    <h3>Iniciar Sesión<span></span><img src="./images/log.png" alt=""></h3>
+                </div>
+            </div>
+
+            <div class="barra">
+                <a href="index.html" id="inicio">Inicio</a>
+                <a href="bestSeller.html" id="topSell">Lo más top</a>
+                <a href="dresses.html" id="vestidos">Vestidos</a>
+                <a href="tops.html" id="tops">Camisetas, tops y jerseis</a>
+                <a href="bottom.html" id="bottom ">Pantalones y faldas</a>
+                <a href="accesories.html" id="acc">Accesorios y complementos</a>
+                <a href="shoes.html" id="shoes">Zapatos y bolsos</a>
+            </div>
+            <style>
+                #vestidos {
+                    border: 2px solid black;
+                }
+            </style>
+    </header>
+    <main>
+        <div id="htmlVestidos">
+            <div id="productos">
+            </div>
+        </div>
+        <div class="oculto">
+        </div>
+
+        <div id="carrito"></div>
+
+        <div id="session">
+            <form>
+                <h2>Inicio de Sesión</h2>
+                <p>Nombre de usuario</p>
+                <input type="text" id="username" required>
+                <p>Contraseña</p>
+                <input type="password" id="password">
+                <input type="submit" id="log in"value="Registrarse">
+            </form>
+        </div>
+        <script src="./scripts/shopping.js"></script>
+
+
+    </main>
+</body>
+
+</html>

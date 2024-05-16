@@ -1,0 +1,82 @@
+[
+  {
+    "nombre": "Jersey Pensamiento",
+    "precio": 11.75,
+    "imagen": "../images/jerseys/pensamiento.webp"
+  },
+  {
+    "nombre": "Jersey Violetas",
+    "precio": 12.45,
+    "imagen": "../images/jerseys/violetas.webp"
+  },
+  {
+    "nombre": "Jersey Amapola",
+    "precio": 15.5,
+    "imagen": "../images/jerseys/amapola.webp"
+  },
+  {
+    "nombre": "Jersey Azucena",
+    "precio": 14.99,
+    "imagen": "../images/jerseys/azucena.webp"
+  },
+  {
+    "nombre": "Jersey Jazmín",
+    "precio": 17.99,
+    "imagen": "../images/jerseys/jazmin.webp"
+  },
+  {
+    "nombre": "Jersey Cossandra",
+    "precio": 11.75,
+    "imagen": "../images/jerseys/cossandra.webp"
+  },
+  {
+    "nombre": "Jersey Calendula",
+    "precio": 14.99,
+    "imagen": "../images/jerseys/calendula.webp"
+  },
+  {
+    "nombre": "Top escote cuadrado",
+    "precio": 12.45,
+    "imagen": "../images/jerseys/cuadrado.webp"
+  },
+  {
+    "nombre": "Blusa escote pico",
+    "precio": 11.75,
+    "imagen": "../images/jerseys/pico.webp"
+  },
+  {
+    "nombre": "Top escote Doblez",
+    "precio": 12.99,
+    "imagen": "../images/jerseys/doblez.webp"
+  },
+  {
+    "nombre": "Top asimetrico mangas largas",
+    "precio": 11.75,
+    "imagen": "../images/jerseys/asimetrico.webp"
+  },
+  {
+    "nombre": "Top blanco en punta",
+    "precio": 15.99,
+    "imagen": "../images/jerseys/punta.webp"
+  },
+  {
+    "nombre": "Top asimétrico gris",
+    "precio": 13.99,
+    "imagen": "../images/jerseys/gris.webp"
+  },
+  {
+    "nombre": "Top asimétrico hombro",
+    "precio": 14.23,
+    "imagen": "../images/jerseys/hombro.webp"
+  },
+  {
+    "nombre": "Top fucsia con escote fruncido",
+    "precio": 11.75,
+    "imagen": "../images/jerseys/fucsia.webp"
+  },
+  {
+    "nombre": "Top cuello asimétrico",
+    "precio": 15.55,
+    "imagen": "../images/jerseys/cuello.webp"
+  }
+]

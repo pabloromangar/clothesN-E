@@ -1,0 +1,74 @@
+[
+    {
+        "nombre": "Pendientes pirámide",
+        "precio": 3.99,
+        "imagen": "../images/accesorios/piramide.webp"
+
+    },  
+    {
+        "nombre": "Set 6 pares",
+        "precio": 12.99,
+        "imagen": "../images/accesorios/set.webp"
+
+    }, 
+    {
+        "nombre": "Pendientes Boah (2 sets)",
+        "precio": 7.99,
+        "imagen": "../images/accesorios/boah.webp"
+
+    }, 
+    {
+        "nombre": "Conjunto 5 piezas flor",
+        "precio": 15.99,
+        "imagen": "../images/accesorios/flor.webp"
+
+    }, 
+    {
+        "nombre": "Reloj París",
+        "precio": 7.99,
+        "imagen": "../images/accesorios/paris.webp"
+
+    }, 
+    {
+        "nombre": "Unicollar triple",
+        "precio": 5.55,
+        "imagen": "../images/accesorios/unicollar.webp"
+
+    }, 
+    {
+        "nombre": "Cinturon Blak",
+        "precio": 4.99,
+        "imagen": "../images/accesorios/blak.webp"
+
+    }, 
+    {
+        "nombre": "Cinturon con tachuelas",
+        "precio": 4.99,
+        "imagen": "../images/accesorios/tachuelas.webp"
+
+    }, 
+    {
+        "nombre": "Gafas london",
+        "precio": 9.99,
+        "imagen": "../images/accesorios/london.webp"
+
+    }, 
+    {
+        "nombre": "Gafas New York",
+        "precio": 10.99,
+        "imagen": "../images/accesorios/newyork.webp"
+
+    }, 
+    {
+        "nombre": "Gafas Dinamarca",
+        "precio": 8.99,
+        "imagen": "../images/accesorios/dinamarca.webp"
+
+    },
+    {
+        "nombre": "Bufanda Roma",
+        "precio": 15.99,
+        "imagen": "../images/accesorios/roma.webp"
+
+    } 
+]

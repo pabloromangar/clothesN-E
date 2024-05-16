@@ -1,0 +1,62 @@
+[
+    {
+        "nombre": "Bolso Catrina",
+        "precio": 14.99,
+        "imagen": "../images/bolsos/catrina.webp"
+    },
+    {
+        "nombre": "Bolso Agatha",
+        "precio": 13.99,
+        "imagen": "../images/bolsos/agatha.webp"
+    },
+    {
+        "nombre": "Bolso Georgina",
+        "precio": 16.99,
+        "imagen": "../images/bolsos/georgina.webp"
+    },
+    {
+        "nombre": "Bolso Bad Gyal",
+        "precio": 16.99,
+        "imagen": "../images/bolsos/bad.webp"
+    },
+    {
+        "nombre": "Bolso Taylor",
+        "precio": 12.99,
+        "imagen": "../images/bolsos/taylor.webp"
+    },
+    {
+        "nombre": "Bolso Antonela",
+        "precio": 12.99,
+        "imagen": "../images/bolsos/antonela.webp"
+    },
+    {
+        "nombre": "Botas CowBoy",
+        "precio": 21.99,
+        "imagen": "../images/bolsos/cowboy.webp"
+    },
+    {
+        "nombre": "Tacones dorados",
+        "precio": 24.99,
+        "imagen": "../images/bolsos/dorado.webp"
+    },
+    {
+        "nombre": "Botas brilli-brilli",
+        "precio": 29.99,
+        "imagen": "../images/bolsos/brillo.webp"
+    },
+    {
+        "nombre": "Sandalias cuerda negra",
+        "precio": 19.99,
+        "imagen": "../images/bolsos/.webp"
+    },
+    {
+        "nombre": "Sandalias doradas",
+        "precio": 15.99,
+        "imagen": "../images/bolsos/sandalias.webp"
+    },
+    {
+        "nombre": "Tacones brilli-brilli",
+        "precio": 29.99,
+        "imagen": "../images/bolsos/tacon.webp"
+    }
+]
